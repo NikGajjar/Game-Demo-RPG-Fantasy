@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb860c78ecfb5847a805c62a087e5c6, type: 3}
+  m_Name: BowArrow
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  itemName: Bow
+  itemIcon: {fileID: 21300000, guid: 67506af8a4f556e478617a28b5096798, type: 3}
+  category: 0
+  worldPrefab: {fileID: 7279236981667502247, guid: 467c8aaa3bf03ce4ab259beee0c2b1e2, type: 3}
+  stackable: 0
+  maxStackSize: 10
+  weaponType: 1
+  damage: 5
+  handPrefab: {fileID: 60882169774971954, guid: db944175b27f7624f8fa75a98d5ad356, type: 3}
+  offHandPrefab: {fileID: 0}
+  storedPrefab: {fileID: 6631614173824953546, guid: 53fbb928c6487f445a8a806b0f1a2d45, type: 3}
+  secondaryStoredPrefab: {fileID: 0}
+  projectilePrefab: {fileID: 1225370512109555040, guid: 2acb5b9499acc434ea9f4f05b122e109, type: 3}
+  projectileSpeed: 30
+  swordUnsheatheAnimation: 
+  shieldUnsheatheAnimation: 
+  swordSheatheAnimation: 
+  shieldSheatheAnimation: 
+  idleAnimation: 
+  combatIdleAnimation: 
+  attackAnimations: []
+  blockAnimation: BlockShield
+  bowUnsheatheAnimation: UnsheatheB
+  bowSheatheAnimation: SheatheB
+  bowIdleAnimation: BowIdle
+  arrowUnsheatheAnimation: UnsheatheA
+  bowCombatIdleAnimation: BowIdleCombat
+  bowLoadAnimation: BowShotLoad
+  bowHoldAnimation: BowShotHold
+  bowReleaseAnimation: BowShotRelease
+  arrowHandPrefab: {fileID: 1225370512109555040, guid: 2acb5b9499acc434ea9f4f05b122e109, type: 3}
+  ammunitionData: {fileID: 11400000, guid: fc843bfb8de464649a38d07504582c3d, type: 2}
+  ammoRequiredPerShot: 1
+  throwAnimation: ThrowBall
